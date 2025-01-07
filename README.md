@@ -16,7 +16,7 @@
 
 3. Запустите приложение:
    ```bash
-   python main.py
+   uvicorn main:app --reload
    ```
 
 4. Приложение будет доступно по адресу:
